@@ -1,23 +1,31 @@
-# Домашняя работа к уроку "№"13.Telegram-бот. Отправляем уведомления о результатах прохождении автотестов. Васенков Станислав
+# Домашняя работа к уроку "14. Учимся быстро разрабатывать готовые проекты для тестовых заданий. Васенков Станислав"
 
-[Лекция](https://school.qa.guru/pl/teach/control/lesson/view?id=334644340&editMode=0)
+[Ссылка на репозиторий](https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_python_8_full_project/)
 
-[Репозиторий с кодом](https://github.com/qa-guru/qa_guru_python_9_jenkins)
+[Конспект лекций](https://github.com/qa-guru/knowledge-base/wiki#python)
 
-[Ссылка на jenkins(отправляет уведомления только если упали тесты)](https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_python_9_jenkins_notifications)
+Доступы к сервисам
 
-[Ссылка на jenkins(отправляет всегда уведомление)](https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_python_9_jenkins_notifications_positive)
+https://jira.autotests.cloud/
+jira8 jira8
 
-[Бот с уведомлениями](https://github.com/qa-guru/allure-notifications)
+https://allure.autotests.cloud
+allure8 allure8
 
-[Wiki allure notifications](https://github.com/qa-guru/allure-notifications/wiki)
 
-[Конспект лекций](https://github.com/qa-guru/knowledge-base/wiki/12.-%D0%A2%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC-%D0%B1%D0%BE%D1%82.-%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D0%B0%D1%85-%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2)
+
+https://allure.autotests.cloud/project/3763
+
+https://jira.autotests.cloud/browse/HOMEWORK-938
 
 ## Задание:
-- [ ] Создайте проект с любыми автотестами, либо возьмите уже созданный.
-- [ ] Создайте задачу в Jenkins.
-- [ ] Зарегистрируйте бота в Telegram, создайте чат и добавьте бота в него.
-- [ ] Добавьте бота к вашему проекту.
+- [ ] Выберите вакансию/сайт.
+- [ ] Напишите на неё 5-10 автотестов (простых, главное не тратьте на это много времени, но в стиле ООП + с разметкой шагов и т.д).
+- [ ] Сделайте джобу в Jenkins, с запуском тестов на  Selenoid, добавьте Allure отчёт, уведомления в чат Telegram.
+- [ ] Оформите всё со скриншотами в readme.md.
 
-***Для выполнения домашнего задания нужно приложить скриншот из телеграм-чата с нотификацией о прохождении автотестов в поле ответа.***
+***В поле ответа на задание приложите:***
+
+1. Ссылку на джобу в Jenkins, репозиторий с тестами на github, (скриншот письма рекрутёру).
+2. Если вы не находитесь в поиске работы, просто сбросьте всё вышеуказанное на ревью. 
+3. Это задание подготовка к дипломной работе, и данная реализация может быть как часть вашего диплома.***
