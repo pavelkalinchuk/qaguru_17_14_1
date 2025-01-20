@@ -77,13 +77,3 @@ ___
 <img src="resources/telegram.png" height="40" width="40" />
 <img src="resources/selenoid.jpg" height="40" width="60" />
 
-
- 
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original-wordmark.svg" height="40" width="40" /> 
-
-
-
-
-[2]: https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.pngx
