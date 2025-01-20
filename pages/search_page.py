@@ -1,7 +1,6 @@
 from selene import be, have, by
 from selene.support.shared import browser
 
-
 from pages.base_page import BasePage
 
 
@@ -21,17 +20,13 @@ class SearchPage(BasePage):
     @staticmethod
     def test_checkbox_tester():
         # Находим и проверяем чекбокс "Тестировщик"
-        # browser.driver.execute_script("document.body.style.zoom='45%'")
         browser.driver.execute_script("window.scrollBy(0,500)", "")
         browser.driver.execute_script("window.scrollBy(0,500)", "")
         browser.driver.execute_script("window.scrollBy(0,500)", "")
         checkbox_xpath = ("//input[@class='magritte-checkbox-input___Y41Ta_3-0-29 "
                           "magritte-checkbox-input-unchecked___Mupry_3-0-29' and @type='checkbox' and @value='124']")
-        # checkbox_xpath = "//input[@class='magritte-checkbox-input___Y41Ta_3-0-29 magritte-checkbox-input-unchecked___Mupry_3-0-29' and @type='checkbox' and @value='124']"
-
         # Кликаем на чекбокс "Тестировщик"
         browser.element(checkbox_xpath).click()
-
 
     @staticmethod
     def test_vacancies_for_testers():
@@ -41,4 +36,3 @@ class SearchPage(BasePage):
         title_element = browser.element(by.css('[data-qa="title"]'))
         # Проверяем текст элемента
         title_element.should(have.text('635 вакансий «тестировщик»'))
-
