@@ -68,12 +68,4 @@ ___
 
 ---
 ### В разработке тестов использовался следующий стек:  
-<img src="resources/macos.png" height="40" width="40" />
-<img src="resources/python.jpg" height="40" width="50" />
-<img src="resources/selenium.jpg" height="40" width="50" />
-<img src="resources/allure.png" height="40" width="40" />
-<img src="resources/jenkins.svg" height="40" width="40" />
-<img src="resources/github.png" height="40" width="40" />
-<img src="resources/telegram.png" height="40" width="40" />
-<img src="resources/selenoid.jpg" height="40" width="60" />
-
+<img src="resources/macos.png" height="40" width="40" /><img src="resources/python.jpg" height="40" width="50" /><img src="resources/selenium.jpg" height="40" width="50" /><img src="resources/allure.png" height="40" width="40" /><img src="resources/jenkins.svg" height="40" width="40" /><img src="resources/github.png" height="40" width="40" /><img src="resources/telegram.png" height="40" width="40" /><img src="resources/selenoid.jpg" height="40" width="60" />
